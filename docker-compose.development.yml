@@ -169,7 +169,7 @@ services:
   #######################################
   # FTP (vsftpd)
   #######################################
-  #ftp:
+  ftp:
     build:
       context: docker/vsftpd/
     volumes:
